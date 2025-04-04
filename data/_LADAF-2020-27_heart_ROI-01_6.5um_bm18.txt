@@ -1,0 +1,86 @@
+############# DOI ###################
+
+Title           ="Zoom at 6.5 um in the 01 region of the heart of the body donor LADAF-2020-27"
+Abstract        ="Vertical column in local tomography at 6.5 um voxel size performed by HiP-CT on the beamline BM18 of the heart from the body donor LADAF-2020-27 using half-acquisition protocol."
+Users           ="J. Brunet, A. C. Cook, C. L. Walsh, J. Cranley, P. Tafforeau, K. Engel, C. Berruyer, E. Burke O’Leary, A. Bellier, R. Torii, C. Werlein, D. D. Jonigk, M. Ackermann, K. Dollman, P. D. Lee"
+
+
+############ proposal ###############
+
+proposalTitle   ="Bridging the gap between cellular and whole body imaging using Hierarchical Phase-Contrast Tomography: HiP-CT"
+proposalNumber  ="md1290"
+proposers       ="Peter D. Lee, Paul Tafforeau, Claire Walsh"
+experimentType  ="tomography"
+technique       ="Hierachical Phase-Contrast Tomography (HiP-CT)"
+beamlineName    ="BM18"
+instrumentName  ="MRtomo"
+
+
+############ patient ################
+
+PatientInstitue ="Laboratoire d'Anatomie Des Alpes Françaises"
+PatientNumber   ="LADAF-2020-27"
+PatientAge      ="94 years"
+PatientSex      ="F"
+PatientWeight   ="45 kg"
+PatientSize     ="140 cm"
+PatientMedInfo  ="right sylvian and right cerebellar stroke, Cognitive disorders of vascular origin, Depressive syndrome, Rhythmic and hypertensive heart disease (AF), Micro-crystalline arthritis (gout), Right lung pneumopathy (3 years before death), Left cataract, Left temporal squamous cell carcinoma."
+
+
+########### sample ################
+
+SampleName  ="LADAF-2020-27_heart"
+Organ       ="heart"
+SampleInfo  ="complete heart from the body donor program of the Laboratoire d'Anatomie des Alpes Francaise (LADAF)"
+SamplePrep  ="formalin fixed, progressive transfer to ethanol 70%. Vacuum degassing at each transfer to new ethanol bath, mounted with agar crushed gel at 70% ethanol"
+
+########### scan parameters ###########
+
+StartTime       ="28/02/2022"
+SRCurrent       ="198.608 mA"
+IDNames         ="BM18"
+ScanRadix       ="HA-900_6.5um_LADAF-2020.27_heart_ROI-01"
+XStep           ="N.A."
+XStages         ="1"
+YStep           ="N.A."
+YStages         ="1"
+ZStep           ="U.N. mm"
+ZStages         ="U.N."
+Projections     ="6000"
+RefN            ="3"
+DarkN           ="40"
+RefOn           ="U.N."
+ScanningMode    ="zseries"
+ExposureTime    ="0.015 s"
+AccExposureTime ="0.06 s"
+AccFramesCount  ="4"
+PixelSize       ="6.5 um"
+PropDistance    ="10000 mm"
+Filters         ="Mo 0.65mm"
+Det_Avg_Energy  ="115 keV"
+ScanGeometry    ="half-acquisition"
+ScanRange       ="360 deg"
+SensorName      ="U.N."
+SensorMode      ="U.N."
+SensorPixelSize ="U.N. um"
+Magnification   ="U.N."
+XPixelNum       ="2048"
+YPixelNum       ="1392"
+OpticsType      ="U.N."
+Scintillator    ="U.N."
+SurfDoseRate    ="U.N. Gy/s"
+VoiDoseRate     ="U.N. Gy/s"
+VoiIntegDose    ="U.N. Gy"
+ScanTime        ="U.N. min"
+SeriesTime      ="U.N. h"
+
+
+######### processing ############
+
+RefApproach     ="reference jar with 70% ethanol, single reference per scan type"
+VolumeX         ="3844"
+VolumeY         ="3844"
+VolumeZ         ="6000"
+32to16BitsMin   ="-0.02"
+32to16BitsMax   ="0.03"
+Jp2ComprRatio   ="10"
